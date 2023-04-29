@@ -45,9 +45,9 @@ The converted rule will be displayed in the target_rule_text field in the GUI.
 
 # Problems:
 
-# THERE ARE MANY!
+# Pre-Alpha
 Here's a few:
-1. When you generate the script it takes time. Didn't have the time to create nice graphics so just wait for it.
+1. When you generate the script it takes time. We will add nice graphics next release so just wait for the rule to load.
 2. ChatGPT generates a lot of metadat. Before converting to your favorite SIEM/XDR/WHATEVERDR you will have to remove the metadata first. Remove the following: 
 * everything after assistant
 * '''yml
@@ -83,7 +83,7 @@ level: high
 # Anything else ChatGPT is generating should be removed.
 3. This is a pre-alpha release. It was meant for research purposeses only! 
 4. Please don't hesitate to report problems/requests/ideas/improvments
-5. Also, we do not take any responsibility on anything starnge ChatGPT might produce. Results vary!
+5. We do not take any responsibility on anything starnge ChatGPT might produce. Results vary!
 
 License
 The ChatGPT Sigma Conversion script is licensed under the GNU GPL V3 License. See LICENSE for more information.
