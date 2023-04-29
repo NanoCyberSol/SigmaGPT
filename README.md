@@ -5,17 +5,17 @@ The ChatGPT Sigma Conversion script is a Python script that allows you to genera
 Prerequisites
 Before using the ChatGPT Sigma Conversion script, you will need to have the following software installed on your system:
 
-Python 3
-requests
-openai
-cryptography
-pycryptodome
-PyYAML
-pySigma
-openai==0.27.0
-keyring==23.2.1
-sigmatools==0.20.0
-gitpython
+* Python 3
+* requests
+* openai
+* cryptography
+* pycryptodome
+* PyYAML
+* pySigma
+* openai==0.27.0
+* keyring==23.2.1
+* sigmatools==0.20.0
+* gitpython
 
 In addition, you will need to have an API key for the OpenAI GPT-3.5 language model. You can sign up for an API key on the OpenAI website.
 
