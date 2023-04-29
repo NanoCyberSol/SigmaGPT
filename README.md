@@ -25,9 +25,10 @@ To install the ChatGPT Sigma Conversion script, follow these steps:
 
 Clone or Copy/Paste chatgpt_sigma_conversion.py
 
-Install the Python dependencies:
+Install the Python dependencies
 
-Usage
+# Usage
+
 To use the ChatGPT Sigma Conversion script, follow these steps:
 
 Save your OpenAI API key using the save_api_key() function in the script.
@@ -82,6 +83,7 @@ level: high
 # Anything else ChatGPT is generating should be removed.
 3. This is a pre-alpha release. It was meant for research purposeses only! 
 4. Please don't hesitate to report problems/requests/ideas/improvments
+5. Also, we do not take any responsibility on anything starnge ChatGPT might produce. Results vary!
 
 License
 The ChatGPT Sigma Conversion script is licensed under the GNU GPL V3 License. See LICENSE for more information.
