@@ -48,13 +48,13 @@ The converted rule will be displayed in the target_rule_text field in the GUI.
 Here's a few:
 1. When you generate the script it takes time. Didn't have the time to create nice graphics so just wait for it.
 2. ChatGPT generates a lot of metadat. Before converting to your favorite SIEM/XDR/WHATEVERDR you will have to remove the metadata first. Remove the following: 
-# everything after assistant
-# '''yml
-# '''
-# All the ChatGPT explenation at the buttom. Keep the Sigma Rule clean
+* everything after assistant
+* '''yml
+* '''
+* All the ChatGPT explenation at the buttom. Keep the Sigma Rule clean
 
 This is how a normal Sigma Rule should look like:
-
+```
 title: Detect Rundll32 Execution
 description: Detects the execution of the rundll32 command
 references:
@@ -78,7 +78,7 @@ detection:
 falsepositives:
     - Legitimate use of rundll32
 level: high
-
+```
 # Anything else ChatGPT is generating should be removed.
 3. This is a pre-alpha release. It was meant for research purposeses only! 
 4. Please don't hesitate to report problems/requests/ideas/improvments
@@ -87,7 +87,7 @@ License
 The ChatGPT Sigma Conversion script is licensed under the GNU GPL V3 License. See LICENSE for more information.
 
 Acknowledgements
-The ChatGPT Sigma Conversion script was created by [YOUR NAME] and is based on the Sigma Rule Creator project by SigmaHQ. The GPT-3.5 language model is developed by OpenAI.
+The ChatGPT Sigma Conversion script was created by Nano Cyber Solutions and is based on the Sigma Rule Creator project by SigmaHQ. The GPT-3.5 language model is developed by OpenAI.
 
 
 
