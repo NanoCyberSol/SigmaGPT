@@ -64,9 +64,13 @@ def generate_sigma_rule():
 
 
 def get_conversion_targets():
-    raw_targets = subprocess.check_output(["sigmac", "--lists"]).decode("utf-8").splitlines()
-    targets = [t.split(':')[0].strip() for t in raw_targets]
+    targets = []
+    for filename in os.listdir(config_path):
+        if filename.endswith(".yml"):
+            target = os.path.splitext(filename)[0]
+            targets.append(target)
     conversion_target_menu["values"] = targets
+
 
 def generate_target_rule():
     target = conversion_target_menu.get()
